@@ -16,6 +16,8 @@ git clone https://github.com/Raphael-Ribeiro-Lino/front-end-biblioteca.git
 
 - Após a instalação use o comando ng serve -o para abrir no navegador a execução do projeto.
 
+- Deverá ser utilizado a REST API da biblioteca no repositório do github, no endereço https://github.com/aceleragep/biblioteca.git, no backend.
+
 # Funcionalidades do projeto
  ### Autor
  - Listar todos os autores.
