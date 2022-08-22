@@ -1,0 +1,4 @@
+<div *ngIf="autores">
+  <h1 class="card-title">Cadastra livro</h1>
+  <app-form-livro [btnText]="btnText" [autores]="autores" (onSubmit)="createHandler($event)"></app-form-livro>
+</div>

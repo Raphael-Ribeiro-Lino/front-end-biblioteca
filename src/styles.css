@@ -1,0 +1,56 @@
+a {
+  text-decoration: none;
+  color: black;
+  transition: .4s;
+}
+
+a:hover {
+  color: blue;
+}
+
+.card-title{
+  text-align: center;
+}
+
+form{
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: .4em;
+}
+
+.form-group input{
+  padding: .6em;
+  font-size: 1em;
+}
+
+.form-group textarea{
+  padding: .6em;
+  font-size: larger;
+}
+
+input[type="submit"]{
+  background-color: #efefef;
+  border: 2px solid transparent;
+  padding: 0.6em 1em;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.validation-error p{
+  color: #dc3545;
+  margin-top: 0.4em;
+  border-left: 3px solid #dc3545;
+  padding-left: 0.2em;
+}

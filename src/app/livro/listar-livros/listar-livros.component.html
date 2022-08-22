@@ -1,0 +1,18 @@
+<div class="lista-livros-container">
+  <h1>Todos os livros</h1>
+  <button><a routerLink="/cadastrar-livro">Cadastrar livro</a></button>
+  <div *ngIf="livros.length > 0; else noLivros">
+    <div class="livros-container">
+      <div class="livro" *ngFor="let livro of livros">
+        <h2>{{livro.titulo}}</h2>
+        <p>{{livro.anoLancamento}}</p>
+        <p>{{livro.autoresIds}}</p>
+        <button><a href="#">Editar livro</a></button>
+        <button><a (click)="removeHandler(livro.id)">Remover livro</a></button>
+      </div>
+    </div>
+  </div>
+  <ng-template #noLivros>
+    <h1>Não há livros cadastrados!</h1>
+  </ng-template>
+</div>

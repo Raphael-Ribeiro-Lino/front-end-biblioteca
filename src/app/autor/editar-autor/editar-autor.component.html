@@ -1,0 +1,4 @@
+<div *ngIf="autor">
+  <h2>Editando o autor <span>{{autor.id}}</span></h2>
+  <app-form-autor [btnText]="btnText" [dadosAutor]="autor" (onSubmit)="editaAutor($event)"></app-form-autor>
+</div>

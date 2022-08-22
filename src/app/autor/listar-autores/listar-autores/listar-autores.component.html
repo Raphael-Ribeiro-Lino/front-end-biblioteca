@@ -1,0 +1,16 @@
+<div class="lista-autor-container">
+  <h1>Todos os autores</h1>
+  <button><a a routerLink="/cadastrar-autor">Cadastrar autor</a></button>
+  <div *ngIf="autores.length > 0; else noAutores">
+    <div class="autores-container">
+      <div class="autor" *ngFor="let autor of autores">
+        <h2>{{autor.nome}}</h2>
+        <p>{{autor.biografia}}</p>
+        <button><a routerLink="editar-autor/{{autor.id}}">Editar autor</a></button>
+      </div>
+    </div>
+  </div>
+  <ng-template #noAutores>
+    <h1>Não há Autores cadastrados!</h1>
+  </ng-template>
+</div>

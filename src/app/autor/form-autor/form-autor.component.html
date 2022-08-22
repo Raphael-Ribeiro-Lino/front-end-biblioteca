@@ -1,0 +1,17 @@
+<form (ngSubmit)="submit()" [formGroup]="autorForm" #formDir="ngForm">
+  <div class="form-group">
+      <label for="nome">Nome*:</label>
+      <input type="text" formControlName="nome"  id="nome" required>
+  </div>
+  <div *ngIf="nome.invalid && formDir.submitted" class="validation-error">
+    <p *ngIf="nome.errors?.['required']">O nome é obrigatório</p>
+  </div>
+  <div class="form-group">
+    <label for="biografia">Biografia*:</label>
+      <textarea id="biografia" formControlName="biografia" cols="70" rows="10" required></textarea>
+  </div>
+  <div *ngIf="biografia.invalid && formDir.submitted" class="validation-error">
+    <p *ngIf="biografia.errors?.['required']">A biografia é obrigatória</p>
+  </div>
+    <input type="submit" value="{{ btnText }}">
+</form>

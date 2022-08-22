@@ -1,0 +1,38 @@
+.lista-autor-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lista-autor-container h1{
+  margin-bottom: 0.5em;
+}
+
+.lista-autor-container button{
+  margin-bottom: 1em;
+}
+
+.autores-container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.autor{
+  border: solid 1px black;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.autor p{
+  font-size: large;
+}
+
+.autor button{
+  margin: 1em;
+}
