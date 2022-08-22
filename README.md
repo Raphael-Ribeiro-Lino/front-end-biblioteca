@@ -1,27 +1,34 @@
-# RaphaelRibeiroLinoFrontEnd
+# FrontEnd biblioteca
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 13.1.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+# Tecnologias utilizadas no projeto
+- Angular
+- Tyscript
+- HTML5
+- CSS
 
-## Development server
+# Importar e rodar o projeto
+- O primeiro passo é o de clonar Repositório
+```Banch
+git clone https://github.com/Raphael-Ribeiro-Lino/front-end-biblioteca.git
+```
+- Depois abra o terminal de comandos, entre na pasta do projeto clonado e execute o comando npm install, para instalar as dependências do projeto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Após a instalação use o comando ng serve -o para abrir no navegador a execução do projeto.
 
-## Code scaffolding
+# Funcionalidades do projeto
+ ### Autor
+ - Listar todos os autores.
+ - Cadastrar autor.
+ - Buscar autor por id.
+ - Editar autor.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ ### Livro
+- Listar todos os livros.
+- Cadastrar livro.
+- Buscar livro por id.
+- Editar livro.
+- Deletar livro.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Autor
+Raphael Ribeiro Lino
